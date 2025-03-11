@@ -1,0 +1,27 @@
+---
+import './src/styles/global.css';
+import Navbar from "../components/Navbar.jsx";
+---
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>ASEI</title>
+	</head>
+	<div class="flex h-screen">
+		<!-- Navbar siempre a la izquierda -->
+		<aside class="w-64 flex-shrink-0">
+		  <Navbar />
+		</aside>
+	  
+		<!-- Contenido a la derecha -->
+		<main class="flex-1 h-screen bg-black flex justify-center items-center">
+			<slot />
+		</main>
+	</div>
+</html>
+
+

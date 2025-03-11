@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'Calibre';
+    src: url('/assets/fonts/CalibreRegular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Calibre';
+    src: url('/assets/fonts/CalibreBold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Calibre';
+    src: url('/assets/fonts/Calibre-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Calibre';
+    src: url('/assets/fonts/CalibreSemibold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Roboto Slab';
+    src: url('/assets/fonts/RobotoSlab-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Roboto Slab';
+    src: url('/assets/fonts/RobotoSlab-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Roboto Slab';
+    src: url('/assets/fonts/RobotoSlab-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  /* Aplicar las fuentes al body */
+  body {
+    font-family: 'Calibre', sans-serif;
+  }
+  

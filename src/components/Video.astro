@@ -1,0 +1,19 @@
+---
+import { onMount } from 'solid-js';
+
+onMount(() => {
+  const video = document.querySelector('video');
+  if (video) {
+    video.play(); 
+  }
+});
+---
+
+<video 
+  class="w-full h-full object-cover"
+  src="/dronvideo.mp4"
+  autoplay
+  loop
+  muted
+  playsinline
+></video>
