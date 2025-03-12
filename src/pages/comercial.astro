@@ -1,0 +1,23 @@
+---
+import Layout from '../layouts/Layout.astro';
+import './src/styles/global.css';
+---
+
+<Layout>
+    <div class="w-full h-screen flex flex-col items-center justify-center bg-white">
+        <script type="module" src="https://us-east-1.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
+        
+        <!-- Contenedor del dashboard -->
+        <div class="w-full h-full">
+            <tableau-viz
+                id="tableau-viz"
+                src="https://us-east-1.online.tableau.com/t/asei/views/emp/REASCOMUNES"
+                width="100%"
+                height="100%"
+                hide-tabs
+                toolbar="bottom"
+                class="w-full h-full"
+            ></tableau-viz>
+        </div>
+    </div>
+</Layout>
