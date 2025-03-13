@@ -2,19 +2,19 @@ import { HomeIcon } from "@heroicons/react/24/solid";
 
 export default function Navbar() {
   const menuItems = [
-    { name: "Inicio", icon: <HomeIcon className="w-5 h-5 mr-2" />, link: "/" },
-    { name: "CEO", link: "/ceo" },
-    { name: "Comercial", link: "/comercial" },
-    { name: "Institucional", link: "/institucional" },
-    { name: "Legal", link: "/legal" },
-    { name: "Operaciones", link: "/operaciones" },
+    { name: "Inicio", icon: <HomeIcon className="w-5 h-5 mr-2" />, link: "/AseiDataInterna/" },
+    { name: "CEO", link: "/AseiDataInterna/ceo" },
+    { name: "Comercial", link: "/AseiDataInterna/comercial" },
+    { name: "Institucional", link: "/AseiDataInterna/institucional" },
+    { name: "Legal", link: "/AseiDataInterna/legal" },
+    { name: "Operaciones", link: "/AseiDataInterna/operaciones" },
   ];
 
   return (
     <div className="w-64 bg-[#001f4e] text-white h-screen flex flex-col shadow-lg p-4 font-roboto">
       {/* Logo con margen inferior */}
       <div className="w-full flex justify-center mb-10">
-        <img src="/logo.png" alt="Logo" className="w-full max-w-[150px] object-contain" />
+        <img src="/AseiDataInterna/logo.png" alt="Logo" className="w-full max-w-[150px] object-contain" />
       </div>
 
       {/* Título */}
